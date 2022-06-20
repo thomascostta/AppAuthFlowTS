@@ -23,7 +23,7 @@ $ git clone https://github.com/thomascostta/grade_calculator.git
 ```
 
 ## Install the dependencies
-`pm i` or `yarn`
+`npm i` or `yarn`
 
 ## Start your Metro server:
 `npx react-native start`
