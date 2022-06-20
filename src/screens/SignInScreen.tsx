@@ -5,8 +5,10 @@ import imageCoffee from '../assets/coffee.png';
 import { MyTextInput } from '../components/MyTextInput';
 import { MyButton } from '../components/MyButtons';
 import { styles } from './styles';
+import { useAuth } from '../contexts/Auth';
 
 export function SignInScreen() {
+    const { signIn } = useAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -27,7 +29,10 @@ export function SignInScreen() {
                 value={password}
                 onChangeText={setPassword}
             />
-            <MyButton title="Entrar no App" />
+            <MyButton
+                title="Entrar no App"
+                onPress={() => signIn(email, password)}
+            />
         </View>
     )
 }
