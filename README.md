@@ -11,7 +11,7 @@
 </p>
 
 # Overview :book:
-  App com fluxo de autenticação utilizando React-Native CLI com TypeScript, rotas com React Navigation v.6 e gerenciamento de estado pelo Hook Context.
+  App com fluxo de autenticação utilizando React-Native CLI com TypeScript, rotas com React Navigation v.6, gerenciamento de estado pelo Hook Context e persistênica de dados com Async Storage.
 
 ---
 
