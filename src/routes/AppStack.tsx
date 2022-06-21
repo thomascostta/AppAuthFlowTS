@@ -6,6 +6,11 @@ import { SettingScreen } from '../screens/SettingScreen';
 
 const Stack = createNativeStackNavigator();
 
+export interface AppParamList {
+    Home: undefined;
+    Settings: undefined;
+}
+
 export function AppStack() {
     return (
         <Stack.Navigator>
@@ -20,4 +25,4 @@ export function AppStack() {
             />
         </Stack.Navigator>
     )
-}
+};
