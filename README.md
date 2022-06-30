@@ -19,7 +19,7 @@
 
 ## Clone this repository
 ```bash
-$ git clone https://github.com/thomascostta/grade_calculator.git
+$ git clone https://github.com/thomascostta/AppAuthFlowTS.git
 ```
 
 ## Install the dependencies
